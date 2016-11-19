@@ -1,11 +1,13 @@
 package com.rokin.bookstore.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@org.springframework.stereotype.Controller
+@Controller
+@RequestMapping(value="/")
 public class DefaultController {
 	
-	@RequestMapping(value="/")
+	@RequestMapping()
 	public String homePage()
 	{
 		return "home";

@@ -5,37 +5,37 @@
 	<form method="post" action="../buyerSignup.jsp">
 
 		<div class="form-group">
-			<label>First Name</label> <input type="text" name="student_firstName"
+			<label>First Name</label> <input type="text" name="seller_firstName"
 				class="form-control" />
 		</div>
 
 		<div class="form-group">
-			<label>Last Name</label> <input type="text" name="student_lastName"
+			<label>Last Name</label> <input type="text" name="seller_lastName"
 				class="form-control" />
 		</div>
 
 		<div class="form-group">
-			<label>Address</label> <input type="text" name="student_faculty"
+			<label>Address</label> <input type="text" name="seller_address"
 				class="form-control" />
 		</div>
 		
 		<div class="form-group">
-			<label>Phone Number</label> <input type="text" name="student_faculty"
+			<label>Phone Number</label> <input type="text" name="seller_phone"
 				class="form-control" />
 		</div>
 
 		<div class="form-group">
-			<label>Email</label> <input type="text" name="student_email"
+			<label>Email</label> <input type="text" name="seller_email"
 				class="form-control" />
 		</div>
 		
 		<div class="form-group">
-			<label>Username</label> <input type="text" name="student_faculty"
+			<label>Username</label> <input type="text" name="seller_username"
 				class="form-control" />
 		</div>
 		
 		<div class="form-group">
-			<label>Password</label> <input type="text" name="student_faculty"
+			<label>Password</label> <input type="text" name="seller_password"
 				class="form-control" />
 		</div>
 

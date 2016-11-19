@@ -12,4 +12,10 @@ public class BuyerController {
 	{
 		return "buyerSignup";
 	}
+	
+	@RequestMapping(value="/buy")
+	public String buyBooks()
+	{
+		return "buybooks";
+	}
 }
