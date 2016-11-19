@@ -1,5 +1,10 @@
 package com.rokin.bookstore.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Table
+@Entity(name = "users")
 public class Users {
 
 	private int id;
