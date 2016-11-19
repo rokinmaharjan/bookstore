@@ -10,6 +10,6 @@ public class DefaultController {
 	@RequestMapping()
 	public String homePage()
 	{
-		return "home";
+		return "buyBooks";
 	}
 }

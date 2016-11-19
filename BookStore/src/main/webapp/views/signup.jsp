@@ -1,6 +1,9 @@
 <%@include file="shared/header.jsp"%>
+<title>Sign Up</title>
+</head>
+<body>
 <div class="container">
-	<h1>Sign Up Seller</h1>
+	<h1>Sign Up</h1>
 
 	<form method="post" action="../buyerSignup.jsp">
 
@@ -43,6 +46,6 @@
 
 	</form>
 </div>
-
+</body>
 
 <%@include file="shared/footer.jsp"%>
