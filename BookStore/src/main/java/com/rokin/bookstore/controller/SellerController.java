@@ -4,12 +4,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping(value="/seller")
+@RequestMapping(value = "/seller")
 public class SellerController {
-	
-	@RequestMapping(value="/signup")
-	public String signup()
-	{
-		return "sellerSignup";
+
+	@RequestMapping(value = "/home")
+	public String buyBooks() {
+		return "addbooks";
 	}
+
 }

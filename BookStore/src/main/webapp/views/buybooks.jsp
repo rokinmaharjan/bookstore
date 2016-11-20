@@ -19,21 +19,12 @@
 			</script>
 		</form>
 
-		<c:forEach var="b" items="${........ }" step=3>
-		<div class="row">
-			<div class="col-lg-4">
-			PHOTO 1 
-			BOOK NAME 1
+		<c:forEach var="book" items="${books}">
+			<div class="row">
+				<div class="col-lg-4">PHOTO 1 BOOK NAME 1</div>
+				<div class="col-lg-4">PHOTO 2 BOOK NAME 2</div>
+				<div class="col-lg-4">PHOTO 3 BOOK NAME 3</div>
 			</div>
-			<div class="col-lg-4">
-			PHOTO 2 
-			BOOK NAME 2
-			</div>
-			<div class="col-lg-4">
-			PHOTO 3 
-			BOOK NAME 3
-			</div>
-		</div>
 		</c:forEach>
 
 	</div>
