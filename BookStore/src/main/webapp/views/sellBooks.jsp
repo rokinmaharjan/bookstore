@@ -71,7 +71,7 @@
 		<h1>My Books</h1>
 
 
-		<c:forEach var="b" items="${........ }" step=3>
+		<c:forEach var="book" items="${books}" step=3>
 			<div class="row">
 				<div class="col-lg-4">
 					PHOTO 1 <br> BOOK INFO 1

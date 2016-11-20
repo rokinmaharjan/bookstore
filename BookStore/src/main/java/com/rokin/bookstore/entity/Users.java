@@ -18,7 +18,8 @@ public class Users {
 	private String username;
 	private String password;
 	private String role;
-	private int enabled;
+	private Integer enabled;
+	
 	public int getId() {
 		return id;
 	}
@@ -67,10 +68,10 @@ public class Users {
 	public void setRole(String role) {
 		this.role = role;
 	}
-	public int getEnabled() {
+	public Integer getEnabled() {
 		return enabled;
 	}
-	public void setEnabled(int enabled) {
+	public void setEnabled(Integer enabled) {
 		this.enabled = enabled;
 	}
 	

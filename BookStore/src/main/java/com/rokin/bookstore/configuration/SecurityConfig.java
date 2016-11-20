@@ -24,7 +24,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		http.authorizeRequests().antMatchers("/", "/login", "/signup", "/register").permitAll().antMatchers("/buyer/**")
 				.hasRole("BUYER").antMatchers("/seller/**").hasRole("SELLER").anyRequest().authenticated().and()
 				.formLogin().loginPage("/login").failureUrl("/login?error").usernameParameter("username")
-				.passwordParameter("password").successHandler(successhandler);
+				.passwordParameter("password").successHandler(successhandler).and().exceptionHandling().accessDeniedPage("/403");
 
 		http.logout().logoutUrl("/login?logout");
 	}

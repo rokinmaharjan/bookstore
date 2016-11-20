@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import com.rokin.bookstore.entity.Users;
 import com.rokin.bookstore.service.UsersService;
@@ -17,14 +16,8 @@ public class DefaultController {
 	private UsersService service;
 
 	@RequestMapping()
-<<<<<<< HEAD
 	public String homePage() {
 		return "home";
-=======
-	public String homePage()
-	{
-		return "buyBooks";
->>>>>>> 2e14c766738b822a3f69b002098c2d18d845fac9
 	}
 
 	@RequestMapping(value = "/signup")
@@ -43,12 +36,12 @@ public class DefaultController {
 		if (returnedUser.equals(null) || returnedUser == null) {
 			return "signup";
 		}
-		return "login";
+		return "redirect:/login";
 	}
 
-	@RequestMapping(value = "/decideUser")
-	public void decide() {
-		System.out.println("HELLO!!!");
+	@RequestMapping(value = "/403")
+	public String decide() {
+		return "403";
 	}
 
 }
