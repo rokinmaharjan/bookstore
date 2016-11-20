@@ -17,8 +17,14 @@ public class DefaultController {
 	private UsersService service;
 
 	@RequestMapping()
+<<<<<<< HEAD
 	public String homePage() {
 		return "home";
+=======
+	public String homePage()
+	{
+		return "buyBooks";
+>>>>>>> 2e14c766738b822a3f69b002098c2d18d845fac9
 	}
 
 	@RequestMapping(value = "/signup")
